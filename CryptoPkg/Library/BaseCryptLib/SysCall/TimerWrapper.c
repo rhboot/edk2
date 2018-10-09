@@ -7,9 +7,13 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
 
+#if defined(OPENSSL_SYS_UEFI) || defined(OPENSSL_SYS_UEFI_APP)
+#include <CrtLibSupport.h>
+#else
 #include <Uefi.h>
 #include <CrtLibSupport.h>
 #include <Library/UefiRuntimeServicesTableLib.h>
+#endif
 
 //
 // -- Time Management Routines --

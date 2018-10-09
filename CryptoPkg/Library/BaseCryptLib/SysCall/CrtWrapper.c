@@ -382,6 +382,7 @@ size_t fwrite (const void *buffer, size_t size, size_t count, FILE *stream)
 //  -- Dummy OpenSSL Support Routines --
 //
 
+#if !defined(OPENSSL_SYS_UEFI) && !defined(OPENSSL_SYS_UEFI_APP)
 int BIO_printf (void *bio, const char *format, ...)
 {
   return 0;
@@ -391,6 +392,7 @@ int BIO_snprintf(char *buf, size_t n, const char *format, ...)
 {
   return 0;
 }
+#endif
 
 #ifdef __GNUC__
 

@@ -338,6 +338,11 @@ extern "C" {
 
 #define RC4_INT unsigned int
 
+/* Always build FIPS module */
+#ifndef OPENSSL_FIPS
+# define OPENSSL_FIPS
+#endif
+
 #ifdef  __cplusplus
 }
 #endif

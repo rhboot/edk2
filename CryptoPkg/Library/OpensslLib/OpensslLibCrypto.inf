@@ -437,6 +437,11 @@
   $(OPENSSL_PATH)/crypto/sm3/sm3.c
   $(OPENSSL_PATH)/crypto/sm4/sm4.c
   $(OPENSSL_PATH)/crypto/stack/stack.c
+  $(OPENSSL_PATH)/crypto/store/store_err.c
+  $(OPENSSL_PATH)/crypto/store/store_init.c
+  $(OPENSSL_PATH)/crypto/store/store_lib.c
+  $(OPENSSL_PATH)/crypto/store/store_register.c
+  $(OPENSSL_PATH)/crypto/store/store_strings.c
   $(OPENSSL_PATH)/crypto/threads_none.c
   $(OPENSSL_PATH)/crypto/threads_pthread.c
   $(OPENSSL_PATH)/crypto/threads_win.c

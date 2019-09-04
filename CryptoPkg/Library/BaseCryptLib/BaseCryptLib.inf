@@ -55,6 +55,8 @@
   Pk/CryptTs.c
   Pem/CryptPem.c
 
+  SysCall/BaseStrings.c
+  SysCall/memset.c
   SysCall/CrtWrapper.c
   SysCall/TimerWrapper.c
   SysCall/BaseMemAllocation.c

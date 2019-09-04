@@ -763,6 +763,16 @@ AsciiStrnCatS (
   );
 
 /**
+  stpcpy()
+**/
+CHAR8 *
+EFIAPI
+AsciiStpCpy (
+  OUT   CHAR8           *Destination,
+  IN    CONST CHAR8     *Source
+  );
+
+/**
   Convert a Null-terminated Ascii decimal string to a value of type UINTN.
 
   This function outputs a value of type UINTN by interpreting the contents of

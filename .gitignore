@@ -1,3 +1,5 @@
 Build/
 tags/
 .DS_Store
+.sw?
+.*.sw?

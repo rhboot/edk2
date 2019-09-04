@@ -2139,6 +2139,14 @@ AsciiStrnCatS (
   return RETURN_SUCCESS;
 }
 
+CHAR8 *
+AsciiStpCpy(CHAR8 *Destination, CONST CHAR8 *Source)
+{
+        size_t len = AsciiStrLen (Source);
+        CopyMem (Destination, Source, len + 1);
+        return Destination + len;
+}
+
 /**
   Convert a Null-terminated Ascii decimal string to a value of type UINTN.
 

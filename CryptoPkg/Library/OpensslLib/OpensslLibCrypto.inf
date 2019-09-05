@@ -106,6 +106,7 @@
   $(OPENSSL_PATH)/crypto/async/async_wait.c
   $(OPENSSL_PATH)/crypto/bio/b_addr.c
   $(OPENSSL_PATH)/crypto/bio/b_dump.c
+  $(OPENSSL_PATH)/crypto/bio/b_print.c
   $(OPENSSL_PATH)/crypto/bio/b_sock.c
   $(OPENSSL_PATH)/crypto/bio/b_sock2.c
   $(OPENSSL_PATH)/crypto/bio/bf_buff.c
@@ -219,6 +220,7 @@
   $(OPENSSL_PATH)/crypto/dso/dso_win32.c
   $(OPENSSL_PATH)/crypto/ebcdic.c
   $(OPENSSL_PATH)/crypto/err/err.c
+  $(OPENSSL_PATH)/crypto/err/err_all.c
   $(OPENSSL_PATH)/crypto/err/err_prn.c
   $(OPENSSL_PATH)/crypto/evp/bio_b64.c
   $(OPENSSL_PATH)/crypto/evp/bio_enc.c
@@ -401,6 +403,7 @@
   $(OPENSSL_PATH)/crypto/rand/rand_unix.c
   $(OPENSSL_PATH)/crypto/rand/rand_vms.c
   $(OPENSSL_PATH)/crypto/rand/rand_win.c
+  $(OPENSSL_PATH)/crypto/rand/randfile.c
   $(OPENSSL_PATH)/crypto/rc4/rc4_enc.c
   $(OPENSSL_PATH)/crypto/rc4/rc4_skey.c
   $(OPENSSL_PATH)/crypto/rsa/rsa_ameth.c
@@ -437,6 +440,12 @@
   $(OPENSSL_PATH)/crypto/sm3/sm3.c
   $(OPENSSL_PATH)/crypto/sm4/sm4.c
   $(OPENSSL_PATH)/crypto/stack/stack.c
+  $(OPENSSL_PATH)/crypto/store/loader_file.c
+  $(OPENSSL_PATH)/crypto/store/store_err.c
+  $(OPENSSL_PATH)/crypto/store/store_init.c
+  $(OPENSSL_PATH)/crypto/store/store_lib.c
+  $(OPENSSL_PATH)/crypto/store/store_register.c
+  $(OPENSSL_PATH)/crypto/store/store_strings.c
   $(OPENSSL_PATH)/crypto/threads_none.c
   $(OPENSSL_PATH)/crypto/threads_pthread.c
   $(OPENSSL_PATH)/crypto/threads_win.c

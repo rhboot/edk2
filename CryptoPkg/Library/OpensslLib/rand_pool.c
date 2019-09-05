@@ -7,6 +7,10 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
 
+#include <openssl/opensslconf.h>
+
+#if defined(OPENSSL_SYS_UEFI)
+
 #include "internal/rand_int.h"
 #include <openssl/aes.h>
 
@@ -314,3 +318,4 @@ void rand_pool_keep_random_devices_open(int keep)
 {
 }
 
+#endif /* OPENSSL_SYS_UEFI */

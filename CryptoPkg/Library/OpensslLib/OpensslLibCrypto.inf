@@ -400,6 +400,9 @@
   $(OPENSSL_PATH)/crypto/rand/rand_egd.c
   $(OPENSSL_PATH)/crypto/rand/rand_err.c
   $(OPENSSL_PATH)/crypto/rand/rand_lib.c
+  $(OPENSSL_PATH)/crypto/rand/rand_pool.c
+  $(OPENSSL_PATH)/crypto/rand/rand_pool_noise.c
+  $(OPENSSL_PATH)/crypto/rand/rand_pool_noise_tsc.c
   $(OPENSSL_PATH)/crypto/rand/rand_unix.c
   $(OPENSSL_PATH)/crypto/rand/rand_vms.c
   $(OPENSSL_PATH)/crypto/rand/rand_win.c
@@ -444,6 +447,7 @@
   $(OPENSSL_PATH)/crypto/store/store_err.c
   $(OPENSSL_PATH)/crypto/store/store_init.c
   $(OPENSSL_PATH)/crypto/store/store_lib.c
+  $(OPENSSL_PATH)/crypto/store/store_null.c
   $(OPENSSL_PATH)/crypto/store/store_register.c
   $(OPENSSL_PATH)/crypto/store/store_strings.c
   $(OPENSSL_PATH)/crypto/threads_none.c

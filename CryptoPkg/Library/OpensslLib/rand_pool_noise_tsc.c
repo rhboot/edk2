@@ -6,6 +6,10 @@ SPDX-License-Identifier: BSD-2-Clause-Patent
 
 **/
 
+#include <openssl/opensslconf.h>
+
+#if defined(OPENSSL_SYS_UEFI)
+
 #include <Library/BaseLib.h>
 #include <Library/DebugLib.h>
 #include <Library/TimerLib.h>
@@ -41,3 +45,5 @@ GetRandomNoise64 (
 
   return TRUE;
 }
+
+#endif /* OPENSSL_SYS_UEFI */

@@ -63,6 +63,7 @@ BEGIN {
                 "no-cms",
                 "no-ct",
                 "no-deprecated",
+                "no-des",
                 "no-dgram",
                 "no-dsa",
                 "no-dynamic-engine",
@@ -85,12 +86,12 @@ BEGIN {
                 "no-scrypt",
                 "no-seed",
                 "no-sock",
+                "no-siphash",
                 "no-srp",
                 "no-ssl",
                 "no-stdio",
                 "no-threads",
                 "no-ts",
-                "no-ui",
                 "no-whirlpool",
                 # OpenSSL1_1_1b doesn't support default rand-seed-os for UEFI
                 # UEFI only support --with-rand-seed=none

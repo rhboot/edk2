@@ -179,25 +179,6 @@
   $(OPENSSL_PATH)/crypto/cryptlib.c
   $(OPENSSL_PATH)/crypto/ctype.c
   $(OPENSSL_PATH)/crypto/cversion.c
-  $(OPENSSL_PATH)/crypto/des/cbc_cksm.c
-  $(OPENSSL_PATH)/crypto/des/cbc_enc.c
-  $(OPENSSL_PATH)/crypto/des/cfb64ede.c
-  $(OPENSSL_PATH)/crypto/des/cfb64enc.c
-  $(OPENSSL_PATH)/crypto/des/cfb_enc.c
-  $(OPENSSL_PATH)/crypto/des/des_enc.c
-  $(OPENSSL_PATH)/crypto/des/ecb3_enc.c
-  $(OPENSSL_PATH)/crypto/des/ecb_enc.c
-  $(OPENSSL_PATH)/crypto/des/fcrypt.c
-  $(OPENSSL_PATH)/crypto/des/fcrypt_b.c
-  $(OPENSSL_PATH)/crypto/des/ofb64ede.c
-  $(OPENSSL_PATH)/crypto/des/ofb64enc.c
-  $(OPENSSL_PATH)/crypto/des/ofb_enc.c
-  $(OPENSSL_PATH)/crypto/des/pcbc_enc.c
-  $(OPENSSL_PATH)/crypto/des/qud_cksm.c
-  $(OPENSSL_PATH)/crypto/des/rand_key.c
-  $(OPENSSL_PATH)/crypto/des/set_key.c
-  $(OPENSSL_PATH)/crypto/des/str2key.c
-  $(OPENSSL_PATH)/crypto/des/xcbc_enc.c
   $(OPENSSL_PATH)/crypto/dh/dh_ameth.c
   $(OPENSSL_PATH)/crypto/dh/dh_asn1.c
   $(OPENSSL_PATH)/crypto/dh/dh_check.c
@@ -437,9 +418,6 @@
   $(OPENSSL_PATH)/crypto/sha/sha1dgst.c
   $(OPENSSL_PATH)/crypto/sha/sha256.c
   $(OPENSSL_PATH)/crypto/sha/sha512.c
-  $(OPENSSL_PATH)/crypto/siphash/siphash.c
-  $(OPENSSL_PATH)/crypto/siphash/siphash_ameth.c
-  $(OPENSSL_PATH)/crypto/siphash/siphash_pmeth.c
   $(OPENSSL_PATH)/crypto/sm3/m_sm3.c
   $(OPENSSL_PATH)/crypto/sm3/sm3.c
   $(OPENSSL_PATH)/crypto/sm4/sm4.c

@@ -1,6 +1,6 @@
 [submodule "CryptoPkg/Library/OpensslLib/openssl"]
 	path = CryptoPkg/Library/OpensslLib/openssl
-	url = git@github.com:rhboot/openssl.git
+	url = https://github.com/rhboot/openssl.git
 	branch = shim-16
 [submodule "SoftFloat"]
 	path = ArmPkg/Library/ArmSoftFloatLib/berkeley-softfloat-3
